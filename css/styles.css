@@ -205,11 +205,11 @@ section.country-bar.hidden {
     display: none;
 }
 
-section.best-sellers {
+section.best-sellers, section.all-products {
     padding-top: 80px;
 }
 
-section.best-sellers h1 {
+section.best-sellers h1, section.all-products h1 {
     text-align: center;
     font-size: 34px;
     letter-spacing: 0.85px;
@@ -218,17 +218,17 @@ section.best-sellers h1 {
     margin: 0 0 14px 0;
 }
 
-section.best-sellers hr {
+section.best-sellers hr, section.all-products hr {
     border: none;
     border-top: 5px solid #33c6dd;
     width: 66px;
 }
 
-section.best-sellers .product-slider {
+section.best-sellers .product-slider, section.all-products .product-slider {
     margin-top: 76px;
 }
 
-section.best-sellers .container {
+section.best-sellers .container, section.all-products .container {
     display: flex;
     justify-content: center;
     padding: 0 8px;
@@ -237,7 +237,7 @@ section.best-sellers .container {
     
 }
 
-section.best-sellers .product-slider .product {
+section.best-sellers .product-slider .product, section.all-products .product-slider .product {
     border-radius: 8px;
     border: 1px solid #DDD;
     width: 30%;
@@ -252,12 +252,16 @@ section.best-sellers .product-slider .product {
     cursor: pointer;
 }
 
+section.best-sellers .product-slider .product img{
+  max-width: 40%;
+  height: auto;
+}
 
-section.best-sellers .product-slider .product img {
+section.all-products .product-slider .product img {
     max-width: 40%;
 }
 
-section.best-sellers .product-slider .product .product-picture {
+section.best-sellers .product-slider .product .product-picture, section.all-products .product-slider .product .product-picture {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -265,7 +269,7 @@ section.best-sellers .product-slider .product .product-picture {
     align-items: center;
 }
 
-section.best-sellers .product-slider .product.new::before {
+section.best-sellers .product-slider .product.new::before, section.all-products .product-slider .product.new::before {
     content: "New";
     background-color: #614dc9;
     position: absolute;
@@ -282,11 +286,11 @@ section.best-sellers .product-slider .product.new::before {
     background-color: #614dc9;
 }
 
-section.best-sellers .product-slider .product .product-info {
+section.best-sellers .product-slider .product .product-info, section.all-products .product-slider .product .product-info {
     margin-top: 50px;
 }
 
-section.best-sellers .product-slider .product .product-info .categories {
+section.best-sellers .product-slider .product .product-info .categories, section.all-products .product-slider .product .product-info .categories {
     color: #33c6dd;
     font-weight: normal;
     font-size: 14px;
@@ -297,7 +301,7 @@ section.best-sellers .product-slider .product .product-info .categories {
     text-transform: capitalize;
 }
 
-section.best-sellers .product-slider .product .product-info .title {
+section.best-sellers .product-slider .product .product-info .title, section.all-products .product-slider .product .product-info .title {
     font-size: 20px;
     letter-spacing: 0.5px;
     line-height: 26px;
@@ -307,7 +311,7 @@ section.best-sellers .product-slider .product .product-info .title {
     
 }
 
-section.best-sellers .product-slider .product .product-info .price {
+section.best-sellers .product-slider .product .product-info .price, section.all-products .product-slider .product .product-info .price {
     font-size: 28px;
     font-weight: bold;
     letter-spacing: 0.7px;
@@ -316,11 +320,11 @@ section.best-sellers .product-slider .product .product-info .price {
     margin-top: 0;
 }
 
-section.best-sellers .product-slider .product .product-info .price .discounted-price {
+section.best-sellers .product-slider .product .product-info .price .discounted-price, section.all-products .product-slider .product .product-info .price .discounted-price {
     color: #EC1C1C;
 }
 
-section.best-sellers .product-slider .product .product-info .price .original-price {
+section.best-sellers .product-slider .product .product-info .price .original-price, section.all-products .product-slider .product .product-info .price .original-price {
     color: #9B9B9B;
     font-weight: normal;
     font-size: 16px;
@@ -329,7 +333,7 @@ section.best-sellers .product-slider .product .product-info .price .original-pri
     text-decoration: line-through;
 }
 
-section.best-sellers .product-slider .product .product-info button {
+section.best-sellers .product-slider .product .product-info button, section.all-products .product-slider .product .product-info button {
     height: 50px;
     width: 219.5px;
     border: 1px solid #000;
@@ -343,7 +347,7 @@ section.best-sellers .product-slider .product .product-info button {
     cursor: pointer;
 }
 
-section.best-sellers .product-slider .product:hover .product-info button {
+section.best-sellers .product-slider .product:hover .product-info button, section.all-products .product-slider .product:hover .product-info button {
     background-color: #33c6dd;
     border: 1px solid #33c6dd;
     color: white;
@@ -518,52 +522,52 @@ footer .copyright-text {
         
     }
 
-    section.best-sellers {
+    section.best-sellers, section.all-products {
         padding-top: 50px;
     }
     
-    section.best-sellers h1 {
+    section.best-sellers h1, section.all-products h1 {
         font-size: 28px;
         letter-spacing: 0.7px;
         line-height: 38px;
         margin: 0 0 12px 0;
     }
 
-    section.best-sellers .product-slider {
+    section.best-sellers .product-slider, section.all-products .product-slider {
         margin-top: 48px;
     }
 
-    section.best-sellers .container {
+    section.best-sellers .container, section.all-products .container {
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    section.best-sellers .product-slider .product {
+    section.best-sellers .product-slider .product, section.all-products .product-slider .product {
         min-width: 220px; 
         margin: 17px 8px;
     }
 
-    section.best-sellers .product-slider .product .product-info .categories {
+    section.best-sellers .product-slider .product .product-info .categories, section.all-products .product-slider .product .product-info .categories {
         font-size: 12px;
         letter-spacing: 0.3px;
         line-height: 30px;
         margin-bottom: 5px;
     }
     
-    section.best-sellers .product-slider .product .product-info .title {
+    section.best-sellers .product-slider .product .product-info .title, section.all-products .product-slider .product .product-info .title {
         font-size: 13px;
         letter-spacing: 0.5px;
         line-height: 18px;
         margin-bottom: 8px;
     }
     
-    section.best-sellers .product-slider .product .product-info .price {
+    section.best-sellers .product-slider .product .product-info .price, section.all-products .product-slider .product .product-info .price {
         font-size: 16px;
         letter-spacing: 0.4px;
         line-height: 30px;
     }
     
-    section.best-sellers .product-slider .product .product-info .price .original-price {
+    section.best-sellers .product-slider .product .product-info .price .original-price, section.all-products .product-slider .product .product-info .price .original-price {
         font-size: 9px;
         letter-spacing: 0.23px;
         line-height: 30px;
@@ -571,7 +575,7 @@ footer .copyright-text {
         line-height: 14px;
     }
     
-    section.best-sellers .product-slider .product .product-info button {
+    section.best-sellers .product-slider .product .product-info button, section.all-products .product-slider .product .product-info button {
         height: 36px;
         width: 193px;
         font-size: 12px;
@@ -579,7 +583,7 @@ footer .copyright-text {
         line-height: 18px;
     }
 
-    section.best-sellers .product-slider .product.new::before {
+    section.best-sellers .product-slider .product.new::before, section.all-products .product-slider .product.new::before {
         font-size: 11px;
         font-weight: 700;
         letter-spacing: 0.27px;
@@ -657,54 +661,54 @@ footer .copyright-text {
         
     }
 
-    section.best-sellers {
+    section.best-sellers, section.all-products {
         padding-top: 64px;
     }
     
-    section.best-sellers .product-slider .product {
+    section.best-sellers .product-slider .product, section.all-products .product-slider .product {
         width: 82%;
         max-width: 360px;
     }
 
-    section.best-sellers h1 {
+    section.best-sellers h1, section.all-products h1 {
         font-size: 36px;
         letter-spacing: 0.6px;
         line-height: 38px;
         margin: 0 0 16px 0;
     }
 
-    section.best-sellers hr {
+    section.best-sellers hr, section.all-products hr {
         border-top: 4px solid #33c6dd;
         width: 40px;
     }
 
-    section.best-sellers .product-slider {
+    section.best-sellers .product-slider, section.all-products .product-slider {
         margin-top: 42px;
     }
     
-    section.best-sellers .product-slider .product .product-info .categories {
+    section.best-sellers .product-slider .product .product-info .categories, section.all-products .product-slider .product .product-info .categories {
         margin-bottom: 7px;
     }
     
-    section.best-sellers .product-slider .product .product-info .title {
+    section.best-sellers .product-slider .product .product-info .title, section.all-products .product-slider .product .product-info .title {
         font-size: 14px;
         letter-spacing: 0.54px;
         line-height: 18px;
     }
     
-    section.best-sellers .product-slider .product .product-info .price {
+    section.best-sellers .product-slider .product .product-info .price, section.all-products .product-slider .product .product-info .price {
         font-size: 20px;
         font-weight: 700;
         letter-spacing: 0.5px;
     }
     
-    section.best-sellers .product-slider .product .product-info .price .original-price {
+    section.best-sellers .product-slider .product .product-info .price .original-price, section.all-products .product-slider .product .product-info .price .original-price {
         font-size: 11px;
         letter-spacing: 0.28px;
         line-height: 20px;
     }
     
-    section.best-sellers .product-slider .product .product-info button {
+    section.best-sellers .product-slider .product .product-info button, section.all-products .product-slider .product .product-info button {
         height: 36px;
         width: 146px;
         font-size: 12px;
