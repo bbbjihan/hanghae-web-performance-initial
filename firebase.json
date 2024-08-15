@@ -4,6 +4,15 @@
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "headers": [
       {
+        "source": "**/*.@(webp)",
+        "headers": [
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "*"
+          }
+        ]
+      },
+      {
         "source": "**/*.@(js|css|jpg|jpeg|gif|png|webp|ttf|woff|woff2)",
         "headers": [
           {

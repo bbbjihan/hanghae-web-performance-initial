@@ -96,12 +96,6 @@ header nav ul li.menu-icon {
     display: none;
 }
 
-header nav ul li.menu-icon img {
-    vertical-align: middle;
-    width: 24px;
-    height: auto;
-}
-
 header nav ul li a {
     color: #3E3E3E;
     font-size: 15px;
@@ -173,7 +167,7 @@ section.hero img {
     width: 220px;
     max-width: 100%;
     border-radius: 92px;
-    background-color: #33c6dd;
+    background-color: #0C5F6E;
     color: #FFF;
     font-size: 16px;
     font-weight: 700;
@@ -186,9 +180,9 @@ section.hero img {
 }
 
 .hero-content button:hover {
-    color: #33c6dd;
+    color: #0C5F6E;
     background-color: #FFF;
-    border: 1px solid #33c6dd;
+    border: 1px solid #0C5F6E;
 }
 
 
@@ -291,7 +285,7 @@ section.best-sellers .product-slider .product .product-info, section.all-product
 }
 
 section.best-sellers .product-slider .product .product-info .categories, section.all-products .product-slider .product .product-info .categories {
-    color: #33c6dd;
+    color: #0C5F6E;
     font-weight: normal;
     font-size: 14px;
     letter-spacing: 0.35px;
@@ -325,7 +319,7 @@ section.best-sellers .product-slider .product .product-info .price .discounted-p
 }
 
 section.best-sellers .product-slider .product .product-info .price .original-price, section.all-products .product-slider .product .product-info .price .original-price {
-    color: #9B9B9B;
+    color: #545454;
     font-weight: normal;
     font-size: 16px;
     letter-spacing: 0.4px;
@@ -500,6 +494,12 @@ footer .copyright-text {
     
     header nav ul li.menu-icon {
         display: inline-block;
+    }
+
+    header nav ul li.menu-icon img {
+        vertical-align: middle;
+        width: 19px;
+        height: auto;
     }
 
     .hero-content h1 {
